@@ -9,7 +9,7 @@ function showSuggestions() {
     }
 }
 
-document.addEventListener("click", function(event) {
+document.addEventListener("click", function (event) {
     var dropdown = document.getElementById("dropdown");
     var searchContainer = document.querySelector(".search-container");
 
@@ -17,3 +17,11 @@ document.addEventListener("click", function(event) {
         dropdown.style.display = "none";
     }
 });
+function redirectToResult() {
+    var selectedPlace = document.getElementById("destination").value;
+    if (selectedPlace) {
+        window.location.href = "search_result.html"; // Redirects to searchresult.html
+    } else {
+        alert("Please select a destination.");
+    }
+}
