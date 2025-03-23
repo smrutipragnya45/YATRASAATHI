@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Success</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: sans-serif;
+            background-color: #e6f2ff;
+            /* Light blue background */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #ddf4ff;
+            /* Light box background */
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            width: 350px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-circle {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+        }
+
+        .image-circle img {
+            width: 80px;
+            /* Adjust based on the illustration */
+            height: auto;
+            border-radius: 50%;
+        }
+
+        h2 {
+            color: #2a4365;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #64748b;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+         /* Blue Proceed Button */
+         .proceed-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            transition: 0.3s;
+        }
+
+        .proceed-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="image-circle">
+            <img src="Group 1171276161.png" alt="Illustration">
+        </div>
+        <h2>Login Successful</h2>
+        <p>Congrats!! You have successfully logged in.</p>
+    </div>
+    <script>
+        setTimeout(function () {
+            window.location.href = "../AFTER_LOGIN(1.4)/after_login.html";
+        }, 3000); // Redirect after 3 seconds
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+/* Full Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E6F4FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+/* Login Box */
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-box {
+    width: 1030px;
+    height: 720px;
+    background: #f7f7f7;
+    border: 1px solid #999;
+    display: flex;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Left Side: Login Form */
+.login-form {
+    width: 50%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    color: #284B8C;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+input {
+    width: 354px;
+    height: 36px;
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 276px 307PX;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    background: #284B8C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background: #1F3B6C;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    color: #284B8C;
+    text-decoration: none;
+}
+
+.signup-text {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.signup-text a {
+    color: #284B8C;
+    text-decoration: none;
+}
+
+.divider {
+    margin: 15px 0;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+}
+
+/* Social Media Login */
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-login img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: white;
+    padding: 5px;
+}
+
+/* Right Side: Image */
+.login-image {
+    width: 463px;
+    height: 534.66px;
+    display: flex;
+    align-items: center; /* Centers the image vertically */
+    justify-content: center; /* Centers the image horizontally */
+    overflow: hidden; /* Prevents overflow issues */
+    padding-top: 40px; /* Adds space on top */
+}
+
+.login-image img {
+    width: 90%; /* Adjust width as needed */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: contain; /* Ensures the full image is visible */
+    border-radius: 0px 10px 10px 0; /* Rounded corners */
+}
+
